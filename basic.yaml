@@ -1,0 +1,7 @@
+install_network_packages:
+  pkg.installed:
+    - pkgs:
+        - curl
+        - net-tools
+        - vim
+        - docker.io
